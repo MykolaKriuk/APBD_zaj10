@@ -12,7 +12,7 @@ public class Category
     
     [Column("name")]
     [MaxLength(100)]
-    public int CategoryName { get; set; }
+    public string CategoryName { get; set; }
     
     public ICollection<ProductCategory> ProductCategories { get; set; }
 }
